@@ -15,7 +15,7 @@ if(AdMob) AdMob.createBanner( {
     position:AdMob.AD_POSITION.BOTTOM_CENTER, 
     autoShow:true} );
 // Note that autoShow is true
-if(window.AdMob) AdMob.prepareInterstitial( {adId:admobid.interstitial, autoShow:false} );
+if(window.AdMob) AdMob.prepareInterstitial( {adId:admobid.interstitial, autoShow:true} );
 if(window.AdMob) AdMob.showInterstitial();
 
 
